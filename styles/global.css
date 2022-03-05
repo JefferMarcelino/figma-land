@@ -18,6 +18,12 @@ button {
     font-weight: 400;
 }
 
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 section .text {
     color: black;
     margin-top: 8rem;
@@ -38,8 +44,6 @@ section .text h3 {
 }
 
 section .text p {
-    margin-left: 4.4rem;
-    margin-right: 4.4rem;
     font-size: 2.8rem;
     line-height: 4.0rem;
 }

@@ -25,9 +25,6 @@ div#home header {
 
 div#home section {
     padding: 0 2rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
 }
 
 div#home section .text {
@@ -72,5 +69,61 @@ section#product .items p {
 }
 
 section#product .item {
-    margin-bottom: 7.5rem;
+    margin-bottom: 10rem;
 }
+
+
+/*** Organzation */
+section#organization {
+    padding-left: 4.2rem;
+    padding-right: 4.2rem;
+}
+
+section#organization .text p {
+    padding-left: 3.5rem;
+    padding-right: 3.5rem;
+}
+
+section#organization img {
+    margin: 6rem 0 5rem 0;
+}
+
+/*** Newsletter */
+section#newsletter .text {
+    margin-bottom: 7rem;
+    display: flex;
+    flex-direction: column;
+}
+
+section#newsletter img {
+    margin-bottom: 6rem;
+}
+
+section#newsletter .subscribe .text h3 {
+    font-size: 2rem;
+    line-height: 2.8rem;
+}
+
+section#newsletter .subscribe p{
+    font-size: 1.8rem;
+    line-height: 2.5rem;
+    padding: 1rem;
+}
+
+section#newsletter .text input {
+    margin-top: 3.4rem;
+    font-size: 2rem;
+    width: 100%;
+    height: 5.4rem;
+    border-radius: 4rem;
+    padding: 1.9rem 3.5rem;
+}
+
+section#newsletter .text input::placeholder {
+    font-size: 1.4rem;
+}
+
+section#newsletter .text button {
+    margin-top: 1.2rem;
+}
+
