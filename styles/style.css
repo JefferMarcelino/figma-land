@@ -10,10 +10,9 @@
 /**** HOME */
 div#home {
     min-height: 100vh;
-    width: 100vw;
     background: url("../images/home_bg.svg") no-repeat;
     background-size: cover;
-    background-position: center;
+    background-position: center bottom;
     margin-bottom: 2rem;
 }
 
@@ -26,10 +25,6 @@ div#home header {
 
 div#home section {
     padding: 0 2rem;
-}
-
-div#home section {
-    padding: 1rem;
     display: flex;
     flex-direction: column;
     align-items: center;
